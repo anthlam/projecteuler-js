@@ -1,2 +1,2 @@
 # projecteuler
-Language practice by solving Project Euler problems
+Javascript practice by solving Project Euler problems
