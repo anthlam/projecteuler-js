@@ -1,0 +1,27 @@
+{
+  "name": "projecteuler",
+  "version": "1.0.0",
+  "description": "Language practice by solving Project Euler problems",
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lamortela/projecteuler.git"
+  },
+  "keywords": [
+    "euler"
+  ],
+  "author": "Anthony Lamorte",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lamortela/projecteuler/issues"
+  },
+  "homepage": "https://github.com/lamortela/projecteuler",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-jasmine": "^0.8.2",
+    "grunt-contrib-jshint": "^0.11.0"
+  }
+}
