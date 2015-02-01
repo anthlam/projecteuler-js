@@ -8,7 +8,7 @@ function findLargestPalindromeProduct(numDigits) {
   var largestPalindrome = 0;
 
   for (var i = maxNum; i >= 1; i--) {
-    for (var j = 1; j <= maxNum; j++) {
+    for (var j = maxNum; j >= i; j--) {
       var product = i * j;
       if (isPalindrome(product) && product > largestPalindrome){
         largestPalindrome = product;
