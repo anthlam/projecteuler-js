@@ -11,7 +11,7 @@ function getEvenFibs(limit) {
   var evenFibs = [];
   var fibs = getFibs(limit);
 
-  for (var i = 1; i < fibs.length; i++) {
+  for (var i = 1, x = fibs.length; i < x; i++) {
     if (fibs[i] % 2 === 0){
       evenFibs.push(fibs[i]);
     }
