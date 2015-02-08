@@ -23,17 +23,15 @@ function getEvenFibs(limit) {
 function getFibs(limit) {
   var fibs = [1, 1];
   var i = fibs.length;
-  var currentFib = 0;
+  var currentFib = fibs[i - 1] + fibs[i - 2];
 
-  do {
+  while (currentFib < limit) {
+
+    fibs.push(currentFib);
+    i = fibs.length;
     currentFib = fibs[i - 1] + fibs[i - 2];
 
-    if (currentFib < limit) {
-      fibs.push(currentFib);
-    }
-
-    i++;
-  } while (currentFib < limit);
+  }
 
   return fibs;
 }
